@@ -1,11 +1,12 @@
 import React from "react";
 import "./App.css";
-import Home from "./pages/Home";
+import Home from "./pages/home";
 
 function App() {
   return (
     <div className="App">
-      <Home />
+      <h1>Currency Checks</h1>
+      <Home/>
     </div>
   );
 }
